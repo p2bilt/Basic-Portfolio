@@ -1,0 +1,36 @@
+body {
+	background-color: #efeee7;
+	margin: 0;
+	padding: 0;
+	  font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+h1 {
+	text-align: center;
+	background-color: grey;
+	color: white;
+	padding: 24px;
+	}
+
+	header {
+		margin: 0;
+	}
+
+section {
+
+}
+
+div {
+
+}
+
+a {
+	color: red;
+}
+
+#bio-image {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+}
