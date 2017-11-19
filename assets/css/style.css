@@ -6,15 +6,27 @@ body {
     background-color: #efeee7;
     margin: 0;
     padding: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 100%;
     line-height: 150%;
+    color: #777777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin: 0px;
 }
 
 h1 {
     text-align: center;
     color: white;
-    padding: 36px;
+    padding: 30px;
     margin: 0px;
     font-size: 28px;
     float: left;
@@ -33,9 +45,6 @@ header {
     margin: 0 auto;
 }
 
-
-}
-
 h2 {
     font-size: 24px;
 }
@@ -44,20 +53,40 @@ section {}
 
 div {}
 
-a {
-    color: red;
-}
+
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color:            #777777;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            #000000;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  color:            #000000;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  underline;
+  color: white;
+  } 
 
 ul.nav {
     text-align: center;
     float: right;
-    padding: 24px;
+    padding: 24px 0px;
     margin: 0;
     background: #ffffff;
 }
 
 ul.nav li {
     display: inline-block;
+        padding: 5px;
 }
 
 
@@ -72,6 +101,14 @@ ul.nav li {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+    margin-top: 12px;
+    float: left;
+}
+
+.icon-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 6px;
 }
 
 .container {
@@ -80,21 +117,21 @@ ul.nav li {
 }
 
 #main-bio,
-#contact-info,
-#bio-image {
-    float: left;
+#contact-info {
     margin-top: 24px;
+        float: left;
+
 }
 
 #main-bio {
     width: 650px;
     background: #ffffff;
-    padding: 0px 20px;
+    padding: 30px;
 }
 
 #contact-info {
     width: 270px;
     float: right;
     background: #ffffff;
-    padding: 0px 20px;
+    padding: 30px;
 }
